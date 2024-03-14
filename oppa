@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="kr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profile</title>
+    <style>
+        @font-face {
+            font-family: 'SUIT-Regular';
+            src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_suit@1.0/SUIT-Regular.woff2') format('woff2');
+            font-weight: normal;
+            font-style: normal;
+        }
+
+        @font-face {
+            font-family: 'Gblod';
+            src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2201-2@1.0/GangwonEduPowerExtraBoldA.woff') format('woff');
+            font-weight: normal;
+            font-style: normal;
+        }
+
+        body {
+            background-image: url('https://postfiles.pstatic.net/MjAyNDAzMTRfNTQg/MDAxNzEwNDE0NTM2NjY3.JnFSbkQjhlUUvwyRJjzVEzMmWB2QNTcY6ibYXJ34tzQg.Rn-ddte71g-tg7f8_pVFlw1VVSQw7PAJpeuIM34tNLMg.PNG/image.png?type=w773');
+            background-position: center;
+            background-size: cover;
+            height: 100vh;
+        }
+
+        .wfont {
+            font-family: 'SUIT-Regular';
+        }
+
+        .myprofile {
+            width: 350px;
+            margin: 30px auto 0px auto;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        .myimage {
+            margin-top: 40px;
+            width: 150px;
+            height: 150px;
+            background-image: url("https://postfiles.pstatic.net/MjAyNDAzMTRfMjY2/MDAxNzEwNDE0NTMxNDQz.Efv2Dw-P8NhHd2TOV0NC_vnVjwdqlcqW4jh3G6dXFsQg.DOXncqyLutenLFuF_EUuklraWdzKoSaeszZ73U14070g.PNG/image.png?type=w773");
+            background-size: cover;
+        }
+
+        a {
+            width: 250px;
+            height: 50px;
+            background-color: rgba(255, 255, 255, 0.521);
+            border-radius: 30px;
+
+            margin-bottom: 15px;
+            padding-left: 40px;
+
+            font-size: 15px;
+            font-weight: bold;
+            color: black;
+
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: baseline;
+
+            text-decoration: none;
+
+            transition: transform 1.0s;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+        }
+
+        a:hover {
+            background-color: rgba(255, 255, 255, 0.819);
+            color: white;
+            transform: scale(1.05);
+            box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+        }
+
+        .myabout {
+            width: 300px;
+            font-size: 14px;
+            margin-bottom: 30px;
+            text-align: center;
+        }
+    </style>
+</head>
+
+<body class="myprofile wfont" style="background-color: rgb(198, 198, 198);">
+    <div class="myimage"></div>
+    <h1 style="font-family: 'Gblod'; font-size: 35px;">Pali Shack</h1>
+    <div class="myabout">파리 쉑의 제작자이자 S+급의 능력을 가진 0XJUNWON </div>
+
+    <a target="_blank" href="https://postfiles.pstatic.net/MjAyNDAzMTRfMTc0/MDAxNzEwNDE0NDg0ODMx.QmhH8ApOjjCIEtlSKr1quA7CfNpMwp4uuqf_-x4_GNEg.OK7t4V9QHxl-01c_zMwQknMTSudKvdA23C-u92eDMuEg.PNG/image.png?type=w773">⭐️🦑🦞☕️👩🏻‍🚀🤰🏻🩳🧽</a>
+    <a target="_blank" href="https://postfiles.pstatic.net/MjAyNDAzMTRfNjcg/MDAxNzEwNDE0NDk3NzQw.janZK1JvogUfSOKIxnrt8E_lWzDm4QJbb2mxxLoZThcg.D372rwdcOGhKTSmy2gN4EL6FbzaB2tXgfJs51hIlIIQg.PNG/image.png?type=w773">🪼🦠🦑🧽</a>
+    <a target="_blank" href="https://postfiles.pstatic.net/MjAyNDAzMTRfMjY4/MDAxNzEwNDE0NTExMjg3.QvsLDd1kcZ0RlCKt2u_MnguFM3XsYIE2CKeIAZGVtPUg.wCqzUuJ_CWGTgATjjq793Q7l-IeMbAfTAn0M1X0xH5Mg.PNG/image.png?type=w773">🤧</a>
+    <a target="_blank" href="https://postfiles.pstatic.net/MjAyNDAzMTRfNDQg/MDAxNzEwNDE0NTI2ODcx.UX2iuP__i7R9iUbA3M02n3vF5vUOfxBm0tQMvQx_QKgg.jHmvQ--lRou1pp96AdmOKZrY7a9QVo1g9Yw-PfIRNTog.PNG/image.png?type=w773">🖼️🖌️🏠</a>
+    <a target="_blank" href="https://postfiles.pstatic.net/MjAyNDAzMTRfNTcg/MDAxNzEwNDE0NTYyNzk1.GUJZaNqQnmUFEWYy9pn9ipubNjpgIQUEagrso4k4lZEg.6Lk4I2hGI0jpjVX-XdUVBqutRSTVhRNXm5QuhkbimSUg.PNG/image.png?type=w773">🧢🐰🕶️</a>
+</body>
+
+</html>
